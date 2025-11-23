@@ -701,7 +701,7 @@ namespace WebSocketSharp
       set {
         lock (_forState) {
           if (!canSet ()) {
-            var msg = "The set operation is not available.";
+            var msg = "The current state of the interface is neither New nor Closed.";
 
             throw new InvalidOperationException (msg);
           }
