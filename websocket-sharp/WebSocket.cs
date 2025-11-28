@@ -872,7 +872,7 @@ namespace WebSocketSharp
     public ClientSslConfiguration SslConfiguration {
       get {
         if (!_isClient) {
-          var msg = "The get operation is not available.";
+          var msg = "The interface is not for the client.";
 
           throw new InvalidOperationException (msg);
         }
