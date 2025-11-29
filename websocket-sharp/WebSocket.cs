@@ -878,7 +878,7 @@ namespace WebSocketSharp
         }
 
         if (!_isSecure) {
-          var msg = "The get operation is not available.";
+          var msg = "The interface does not use a secure connection.";
 
           throw new InvalidOperationException (msg);
         }
