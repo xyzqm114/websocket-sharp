@@ -3584,8 +3584,7 @@ namespace WebSocketSharp
     /// </remarks>
     /// <exception cref="InvalidOperationException">
     ///   <para>
-    ///   The ConnectAsync method is not available if the interface is not
-    ///   for the client.
+    ///   This method is not available if the interface is not for the client.
     ///   </para>
     ///   <para>
     ///   -or-
