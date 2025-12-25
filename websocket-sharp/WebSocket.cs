@@ -4206,9 +4206,9 @@ namespace WebSocketSharp
     ///   </para>
     /// </param>
     /// <param name="preAuth">
-    /// A <see cref="bool"/>: <c>true</c> if sends the credentials for
-    /// the Basic authentication in advance with the first handshake
-    /// request; otherwise, <c>false</c>.
+    /// A <see cref="bool"/>: <c>true</c> if the interface sends the
+    /// credentials for the Basic authentication in advance with
+    /// the first handshake request; otherwise, <c>false</c>.
     /// </param>
     /// <exception cref="ArgumentException">
     ///   <para>
