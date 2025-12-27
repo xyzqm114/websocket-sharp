@@ -4362,7 +4362,7 @@ namespace WebSocketSharp
     public void SetProxy (string url, string username, string password)
     {
       if (!_isClient) {
-        var msg = "The SetProxy method is not available.";
+        var msg = "The interface is not for the client.";
 
         throw new InvalidOperationException (msg);
       }
