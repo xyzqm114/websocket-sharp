@@ -4348,8 +4348,7 @@ namespace WebSocketSharp
     /// </exception>
     /// <exception cref="InvalidOperationException">
     ///   <para>
-    ///   The SetProxy method is not available if the interface is not for
-    ///   the client.
+    ///   This method is not available if the interface is not for the client.
     ///   </para>
     ///   <para>
     ///   -or-
