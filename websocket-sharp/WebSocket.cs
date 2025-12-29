@@ -4294,8 +4294,8 @@ namespace WebSocketSharp
     ///   The syntax is http://&lt;host&gt;[:&lt;port&gt;].
     ///   </para>
     ///   <para>
-    ///   <see langword="null"/> or an empty string if initializes
-    ///   the URL and the credentials.
+    ///   <see langword="null"/> or an empty string if the URL and
+    ///   the credentials need to be initialized.
     ///   </para>
     /// </param>
     /// <param name="username">
