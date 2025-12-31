@@ -4479,8 +4479,8 @@ namespace WebSocketSharp
     /// </exception>
     /// <exception cref="InvalidOperationException">
     ///   <para>
-    ///   The SetUserHeader method is not available when the current state of
-    ///   the interface is neither New nor Closed.
+    ///   This method is not available when the current state of the interface
+    ///   is neither New nor Closed.
     ///   </para>
     ///   <para>
     ///   -or-
