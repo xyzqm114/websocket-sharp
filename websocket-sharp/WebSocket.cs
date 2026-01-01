@@ -4486,8 +4486,8 @@ namespace WebSocketSharp
     ///   -or-
     ///   </para>
     ///   <para>
-    ///   The SetUserHeader method is not available if the interface does not
-    ///   allow the header type.
+    ///   This method is not available if the interface does not allow
+    ///   the header type.
     ///   </para>
     /// </exception>
     public void SetUserHeader (string name, string value)
