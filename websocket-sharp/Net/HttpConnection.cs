@@ -68,7 +68,6 @@ namespace WebSocketSharp.Net
     private EndPointListener      _endPointListener;
     private InputState            _inputState;
     private RequestStream         _inputStream;
-    private bool                  _secure;
     private LineState             _lineState;
     private EndPoint              _localEndPoint;
     private static readonly int   _maxInputLength;
@@ -77,6 +76,7 @@ namespace WebSocketSharp.Net
     private EndPoint              _remoteEndPoint;
     private MemoryStream          _requestBuffer;
     private int                   _reuses;
+    private bool                  _secure;
     private Socket                _socket;
     private Stream                _stream;
     private object                _sync;
