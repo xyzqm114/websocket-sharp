@@ -795,7 +795,7 @@ namespace WebSocketSharp.Net
         return;
 
       if (headerType != _state) {
-        var msg = "This instance does not allow the header.";
+        var msg = "The current instance does not allow that header type.";
 
         throw new InvalidOperationException (msg);
       }
