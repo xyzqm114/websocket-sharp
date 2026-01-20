@@ -1633,7 +1633,8 @@ namespace WebSocketSharp.Net
     /// <paramref name="header"/> is a restricted header.
     /// </exception>
     /// <exception cref="InvalidOperationException">
-    /// This instance does not allow the response header.
+    /// This method is not available if the current instance does not allow
+    /// the response header.
     /// </exception>
     public void Remove (HttpResponseHeader header)
     {
